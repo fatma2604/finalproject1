@@ -1,0 +1,922 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    width: 100%;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: Montserrat,sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+    overflow-x: hidden!important;
+    -webkit-font-smoothing: antialiased;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 20px 0;
+    color: #2b2b2b;
+    font-family: "Playfair Display",serif;
+    font-weight: 400;
+}
+p{
+    color: #6d6a6a;
+    font-size: 17px;
+    line-height: 29px; 
+}
+/*header*/
+.header {
+    font-family: Montserrat,sans-serif;
+    background-color: #fff;
+    padding: 35px 0;
+}
+.header .navbar .nav-item .nav-link{
+    color: #1b1b1b;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 22px;
+    letter-spacing: .1em;
+    box-sizing: border-box;
+    padding: 0 25px;
+    font-family: Montserrat,sans-serif;
+    
+}
+.header .navbar .collapse .navbar-nav .nav-item .dropdown-menu{
+    border: none;
+    border-radius: 0;
+    box-shadow: #000;
+    box-shadow: #000;
+}
+
+.header .navbar .collapse .navbar-nav .nav-item .dropdown-menu li .dropdown-item{
+    color: #8b8b8b;
+    font-size: 12px;
+    font-family: Montserrat,sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+} 
+.header .navbar .navbar-nav .nav-link.active{
+    border-bottom: 2px solid #1b1b1b;
+    color: #18272F;
+  
+}
+.header .navbar .social a{
+ color: #1b1b1b;
+ padding: 0 10px ;
+ font-weight:  700;
+
+}
+.header .navbar .social a img{
+    width: 20px;
+}
+.header .navbar .social .glass{
+    transition: all .5s;
+}
+.header .navbar .social .CART{
+    font-size: 12px;
+}
+.header .navbar .social .glass:hover{
+    color: #f34f3f;
+}
+/*home*/
+
+.home .carousel .carousel-inner .carousel-item h2{
+    color: #000;
+    font-family: "Playfair Display";
+    width: 339px;
+    height: 143px;
+    line-height: 51px;
+    font-size: 41px;
+    padding-top: 40px ; 
+    text-align: left;
+    position: absolute;
+    bottom: 30vh;
+}
+.home .carousel .carousel-inner .carousel-item p{
+    font-family: Lora;
+    color: rgb(109, 106, 106);
+    width: 322px;
+    line-height: 29px;
+    font-size: 17px;
+    text-align: left;
+    position: absolute;
+    bottom: 10vh;
+
+}
+.home .carousel .carousel-inner .carousel-item .img1{
+    width: 197px;
+     height: 56px;
+     position: absolute;
+     bottom: 10px;
+     right: 115vh;
+     
+}
+
+/*home1*/
+.home1{
+    margin: 0 15px;
+    padding-top: 57px !important;
+    font-weight: 600;
+    display: flex;
+    flex-flow:row wrap ;
+}
+.home1 .ul1{
+    display: flex;
+    flex-flow:row wrap ;  
+}
+.home1 .ul1 .li1 a{
+    padding: 0 15px;
+    font-size: 12px;
+    letter-spacing: .1em;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #1b1b1b;
+    font-family: Montserrat,sans-serif;
+}
+.home1 .ul1 .all a{
+    color: #f34f3f;
+}
+
+.home1 .ul1 .fi a{
+    color: #f34f3f;
+    position: absolute;
+    right: 40vh;
+}
+.home1 .card {
+    text-align: center;
+    border: none;
+    border-radius: 0;
+}
+.home1 .card .card-body p{
+    color: #1b1b1b;
+    font-size: 12px;
+    font-family: "Montserrat";
+    margin-bottom: 0;
+}
+.home1 .card .card-body span{
+    color: #afafaf;
+    font-size: 12px;
+}
+
+.home1 .card .imgCard img{
+    transition: all .5s;
+}
+.home1 .card .imgCard:hover img{
+    transform: scale(1.022);
+}
+/*Suprise*/
+.Suprise{
+    height: 90vh;
+    background-color: #f7f7f7;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Suprise .Suprise1{
+    position: absolute;
+    left: 50%;
+}
+.Suprise .imgVideo{
+    position: relative;
+    width: 35%;
+    height: 35%;
+    top: -120px;
+    right: 50vh;
+}
+.Suprise .Suprise1 .textSuprise h2{
+    font-size: 38px;
+    margin:0 0 19px;
+}
+.Suprise .Suprise1 .textSuprise p{
+    margin-top: 27px; 
+}
+.Suprise .Suprise1 .text .imgText img{
+    width: 19px;
+    height: 18px;
+}
+.Suprise .Suprise1 .text{
+    margin-bottom: 0;
+}
+.Suprise .Suprise1 .text p{
+    position: relative;
+    bottom:25px;
+    left: 30px;
+}
+/*Experts*/
+.Experts{
+    padding: 80px 0;
+}
+.Experts .textExperts{
+    text-align: center;
+}
+.Experts .textExperts h2{
+    font-size: 38px;
+    line-height: 1.447em;
+}
+.Experts .card{
+    text-align: center;
+    border: none;
+    border-radius: 0;
+    margin-bottom: 40px;
+    margin-top: 60px;
+}
+.Experts .card h6{
+    color:#1b1b1b ;
+    font-family: "Montserrat";
+    font-size: 12px;
+    line-height: 2em;
+    font-weight: 600;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+.Experts .card p{
+    font-size: 12px;
+    color: #afafaf;
+    margin: 2px 0 4px;
+}
+.Experts .card .imgCard img{
+    width: 222px;
+    height:222px ;
+}
+/*Join*/
+.Join{
+    height: 400px;
+    background-image: url(../img/Join-background-img.jpg);
+    background-position-x: 50%;
+    background-position-y: -24px;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.Join .textJoin h3{
+    color: #fff;
+    font-size: 30px;
+    line-height: 1.4em;
+    font-family: "Playfair Display",serif;
+    font-weight: 400;
+}
+.Join .textJoin .form{
+  padding: 0;
+}
+.Join .textJoin .email{
+    color: #959595;
+    font-size: 12px;
+    width: 80vh;
+    height: 10vh;
+    border-radius: 0;
+    border: 1px solid #e8e8e8;;
+}
+.Join .textJoin .submit{
+    padding: 13px 42px;
+    color: #fff;
+    background-color: #f34f3f;
+    border: 1px solid transparent;
+    cursor: pointer;
+    height: 10vh;
+}
+/*From*/
+.From{
+    padding: 80px 0;
+    background-color: #f7f7f7;
+}
+.From .textFrom{
+    text-align: center;
+}
+.From .textFrom h2{
+    font-size: 38px;
+    line-height: 1.447em;
+    margin-bottom: 0;
+}
+.From .textFrom p{
+    font-size: 17px;
+    font-family: "Lora,serif";
+    line-height: 29px;
+}
+.From .card{
+    background-color: #f7f7f7;
+    text-align: center;
+    border: none;
+    border-radius: 0;
+    margin-bottom: 40px;
+    margin-top: 60px;
+}
+.From .card h5{
+    color:#1b1b1b ;
+    font-size: 22px;
+    line-height: 1.363em;
+    margin-bottom: 0;
+}
+.From .card p{
+   color: #6d6a6a;
+   font-size: 17px;
+   font-family: "Lora,serif";
+    margin: 10px 0;
+    line-height: 1.6em;   
+}
+.From .card  .imgCard .overlay{
+    width: 18vh;
+    height: 6vh;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    text-transform: uppercase;
+    letter-spacing: .15em;
+    background-color: #fff;
+    line-height: 1em;
+    padding: 12px 16px 10px;
+    z-index: 1;
+}
+.From .card  .imgCard .overlay .as a{
+    color: #000;
+    font-size: 10px;
+    font-weight: 600;
+    transition: all .5s;
+
+}
+.From .card  .imgCard .overlay .as a:hover{
+    color: #f34f3f;
+}
+.From .card .imgCard{
+    position: relative;
+    overflow: hidden;
+}
+.From .card .imgCard img{
+    transition: all .5s;
+    z-index: -1;
+}
+.From .card:hover .imgCard img{
+    transform: scale(1.1);
+}
+/*lorem*/
+.lorem{
+  display: flex;  
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+}
+.lorem .carousel .carousel-inner .carousel-item{
+    text-align: center;
+}
+.lorem .carousel .carousel-inner .carousel-item .img1{
+    width:568px ;
+    height:87px ;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.lorem .carousel .carousel-inner .carousel-item .img1 img{
+    width: 17%!important;
+    height:92px ;
+}
+.lorem .carousel .carousel-inner .carousel-item .textLorem p{
+    color: #4b4747;
+    font-family: Lora,serif;
+    font-style: italic;
+    font-size: 24px;
+    line-height: 1.5em;
+}
+.lorem .carousel .carousel-inner .carousel-item .textLorem span{
+    color: #1b1b1b;
+    font-family: Montserrat;
+    font-size: 12px;
+    line-height: 2em;
+    font-weight: 500;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+}
+.lorem .carousel .carousel-inner .carousel-item .textLorem h6{
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: 24px;
+    text-transform: none;
+    color: #afafaf;
+}
+/*dis*/
+.dis{
+    background-color: #fefaf3;
+    padding-top: 60px; 
+}
+.dis .dis1{
+    border-bottom: 1px solid #afafaf ;
+    padding-bottom: 100px;
+}
+.dis .textDis1 h6{
+    font-family: "Montserrat";
+    font-size: 12px;
+    line-height: 2em;
+    font-weight: 700;
+    letter-spacing: .1em;
+    padding-left: 30px;
+    padding-bottom: 10px;
+    vertical-align: baseline;  
+}
+.dis  .textDis1 .ulDis ul li{
+    padding-bottom: 3px;
+}
+.dis  .textDis1 .ulDis ul li a{
+    font-size: 12px;
+    color: #8b8b8b;
+    font-weight: 600;
+}
+.dis  .textDis1 .ulDis ul li a:hover{
+    color: #f1483a;
+    transition: all 0.5s;
+}
+.dis .dis2{
+    padding: 30px 50px;
+}
+.dis .dis2 .Qode{
+    color: #afafaf;
+    font-size: 12px;
+    font-family: Montserrat,sans-serif;
+    line-height: 24px;
+}
+.dis .dis2 .Qode a{
+    color: #6d6a6a;
+}
+.dis .dis2 .imgDis img{   
+    width: 179px;
+    aspect-ratio: auto 179 / 21;
+}
+.dis .dis2 .spamDis span{
+    padding-left: 20px;
+    color:#afafaf;
+    font-size: 12px;
+    font-family: Montserrat,sans-serif;
+}
+/* next page */
+/* body1 */
+.body1{
+   background-image: url(../img/grid-background-img.jpg); 
+   background-position: 0px 0px;
+    background-repeat: repeat;
+    background-attachment: scroll;
+}
+.body1 .pod{
+    padding:0 8vh ;
+    position: relative;
+}
+/* Grid  */
+.Grid{
+    background-color:#fff ;
+    padding: 0 30px;
+    text-align: center;
+}
+.Grid .Grid1 .imgGrid {
+   width: 956px;
+   height: 328px;
+}
+.Grid .Grid1 .textGrid1{
+    position: absolute;
+    top: 60vh;
+    left: 70vh;
+
+
+}
+.Grid .Grid1 .textGrid1 h2{
+    font-size: 38px;
+}
+.Grid .Grid1 .textGrid1 p{
+    font-size: 20px;
+    color: #000;
+    font-weight: 600;
+    border-bottom: #3d0f0f;
+}
+/*Flowers  */
+.Flowers{
+    background-color: #fff;
+    padding: 0 30px;
+}
+.Flowers .card{   
+    text-align: center;
+    border: none;
+    border-radius: 0;
+    margin-bottom: 40px;
+    margin-top: 50px;
+}
+.Flowers .card .textFlowers h6{
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    color: #1b1b1b;
+    line-height: 1.6em;
+    font-family: "Montserrat";
+    letter-spacing: .2em; 
+    font-weight: 600;
+} 
+.Flowers .card .textFlowers p{
+    font-size: 12px;
+    color: #afafaf;
+    font-family: "Montserrat";
+    font-weight: 600;
+
+}
+.Flowers .card .imgFlowers img{
+    transition: all .5s;
+}
+.Flowers .card .imgFlowers:hover img{
+    transform: scale(1.022);
+}
+/* lorem1 */
+.lorem1{
+    background-color: #fff;
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+    padding: 0 30px;
+    margin-bottom: 0;
+
+  }
+  .lorem1 .carousel{
+    background-image: url(../img/learm1-background-img.jpg);
+    padding-top: 20px !important;
+    padding-bottom: 82px !important;
+    width: 100%;
+    height: 100%;
+    
+  }
+  .lorem1 .carousel .carousel-inner .carousel-item{
+      text-align: center;
+  }
+  .lorem1 .carousel .carousel-inner .carousel-item .img1{
+    width:568px ;
+      height:87px ;
+      margin-bottom: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      
+  }
+  .lorem1 .carousel .carousel-inner .carousel-item .img1 img{
+      width: 13%!important;
+      height:92px ;
+      position: absolute;
+      right:45%;
+      top: 20px;
+      
+  }
+  .lorem1 .carousel .carousel-inner .carousel-item .textLorem p{
+      color: #4b4747;
+      font-family: Lora,serif;
+      font-style: italic;
+      font-size: 24px;
+      line-height: 1.5em;
+  }
+  .lorem1 .carousel .carousel-inner .carousel-item .textLorem span{
+      color: #1b1b1b;
+      font-family: "Montserrat";
+      font-size: 12px;
+      line-height: 2em;
+      font-weight: 500;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+      margin-bottom: 0;
+  }
+  .lorem1 .carousel .carousel-inner .carousel-item .textLorem h6{
+      font-size: 12px;
+      letter-spacing: 0;
+      line-height: 24px;
+      text-transform: none;
+      color: #afafaf;
+  }
+/* FEATURED */
+.FEATURED{
+    background-color: #fff;
+    padding: 70px 30px;
+}
+.FEATURED .textFEATURED h6{
+    font-size: 12px;
+    font-family: "Montserrat";
+    line-height: 2em;
+    font-weight: 700;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+}
+.FEATURED .card {
+    text-align: center;
+    border: none;
+    border-radius: 0;
+    padding: 0 20px;
+}
+.FEATURED .card .card-body p{
+    color: #1b1b1b;
+    font-size: 12px;
+    font-family: "Montserrat";
+    margin-bottom: 0;
+}
+.FEATURED .card .card-body span{
+    color: #afafaf;
+    font-size: 12px;
+}
+.FEATURED .card .imgCard img{
+    transition: all .5s;
+    border-radius: 0;
+}
+.FEATURED .card .imgCard:hover img{
+    transform: scale(1.022);
+}
+  /* we */
+  .we{
+    background-color: #fff;
+    padding: 50px 0;
+  }
+  .we .we1{
+    padding: 0 30px;
+  }
+  .we .we1 .textwe .imgwe img{
+    width:197px ;
+    height:56px ;
+  }
+  .we .we1 .textwe h2{
+    color: #2b2b2b;
+    font-family: "Playfair Display",serif;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 1.447em;
+  }
+  .we .we1 .textwe p{
+    font-size: 17px;
+    line-height: 29px;
+    margin-top: 27px;
+    font-family: Lora,serif;
+    font-weight: 500;
+  }
+  .we .we1 .imgwe1{
+    padding: 40px;
+  }
+  /* join1 */
+  .Join1{
+    background: #fff;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .Join1 .textJoin{
+    padding: 0 30px;
+    background-color:#abb8c324;
+    width: 95%;
+    height: 95%; 
+    position: relative;
+  }
+  .Join1 .textJoin .j1{
+    position: absolute;
+    top: 12vh;
+    left: 35vh;
+    
+  }
+  .Join1 .textJoin .j1 h3{
+    font-size: 30px;
+    line-height: 1.4em;
+    font-family: "Playfair Display",serif;
+    font-weight: 400;
+}
+.Join1 .textJoin .j1 .form{
+    padding: 0;
+  }
+  .Join1 .textJoin .j1 .email{
+      color: #959595;
+      font-size: 12px;
+      width: 80vh;
+      height: 10vh;
+      border-radius: 0;
+      border: 1px solid #e8e8e8;;
+  }
+  .Join1 .textJoin .j1 .form .submit{
+      padding: 13px 42px;
+      color: #fff;
+      background-color: #000;
+      border: 1px solid transparent;
+      cursor: pointer;
+      height: 60px;
+  }
+  /*dis13*/
+.dis13{
+    background-color: #fff;
+    padding-top: 60px;
+    
+}
+.dis13 .dis11{
+    border-bottom: 1px solid #afafaff0 ;
+    padding-bottom: 100px;
+}
+.dis13 .textDis11 h6{
+    font-family: Montserrat;
+    font-size: 12px;
+    line-height: 2em;
+    font-weight: 700;
+    letter-spacing: .1em;
+    padding-left: 30px;
+    padding-bottom: 10px;
+    vertical-align: baseline;  
+}
+.dis13  .textDis11 .ulDis1 ul li{
+    padding-bottom: 3px;
+}
+.dis13  .textDis11 .ulDis1 ul li a{
+    font-size: 12px;
+    color: #8b8b8b;
+    font-weight: 600;
+}
+.dis13  .textDis11 .ulDis1 ul li a:hover{
+    color: #f1483a;
+    transition: all 0.5s;
+}
+.dis13 .dis21{
+    padding: 30px 50px;
+}
+.dis13 .dis21 .Qode1{
+    color: #afafaf;
+    font-size: 12px;
+    font-family: Montserrat,sans-serif;
+    line-height: 24px;
+}
+.dis13 .dis21 .Qode1 a{
+    color: #6d6a6a;
+}
+.dis13 .dis21 .imgDis1 img{   
+    width: 179px;
+    aspect-ratio: auto 179 / 21;
+}
+.dis13 .dis21 .spamDis1 span{
+    padding-left: 20px;
+    color:#afafaf;
+    font-size: 12px;
+    font-family: Montserrat,sans-serif;
+}
+
+/* next page */
+/* To */
+.To{
+   margin-left: 80px; 
+   margin-right: 200px;
+}
+
+.To .textTo{
+    position: absolute;
+    top:35vh;
+    left: 25vh;
+}
+.To .textTo h2{
+    font-size: 40px;
+    font-family:"Playfair Display";
+}
+.To .textTo p{
+    color: #2b2b2b;
+    font-size: 19px;
+    font-weight: 600;
+}
+ /* sale */
+ .sale{
+    margin:70px 80px;
+    width: 1200px;
+    height:90%;
+ }
+ .sale .imgsale{
+    overflow: hidden;
+    position: relative;
+    
+ }
+ .sale .imgsale img{
+    transition: all .5s;
+    border-radius: 0;
+}
+.sale  .imgsale:hover img{
+    transform: scale(1.022);
+}
+.sale .imgsale .overlay{
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    padding: 30px 50px;
+}
+.sale .imgsale .overlay h1{
+    color: #f1483a;
+    font-family: Lora,serif;
+    margin: 0 0 4px;
+    font-size: 50px;
+    line-height: 1.32em;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+.sale .imgsale .overlay h6{
+    color: #1b1b1b;
+    margin-top: 10px;
+    font-family: Montserrat;
+    font-size: 12px;
+    line-height: 2em;
+    font-weight: 800;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+
+}
+.sale .imgsale .overlay .text .imgText img{
+    width: 19px;
+    height: 18px;
+}
+.sale .imgsale .overlay .text{
+    margin-bottom: 0;
+}
+.sale .imgsale .overlay .text p{
+    position: relative;
+    bottom:25px;
+    left: 30px;
+}
+/* Ipsum */
+.Ipsum .imgIpsum {
+    padding-left: 40vh;
+}
+.Ipsum .imgIpsum img{
+    width:209px ;
+    height:82px ;
+}
+/* F1 */
+.F1{
+    margin: 0 30px;
+    padding-top: 57px !important;
+    font-weight: 600; 
+}
+.F1 .card {
+    margin-left:30px;
+    text-align: center;
+    border: none;
+    border-radius:0;
+}
+.F1 .card .card-body p{
+    color: #1b1b1b;
+    font-size: 12px;
+    font-family: "Montserrat";
+    margin-bottom: 0;
+}
+.F1 .card .card-body span{
+    color: #afafaf;
+    font-size: 12px;
+}
+
+.F1 .card .imgCard img{
+    transition: all .5s;
+}
+.F1 .card .imgCard:hover img{
+    transform: scale(1.022);
+}
+ /* join2 */
+ .Join2{
+
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .Join2 .textJoin2{
+    background-color: #fff;
+    padding: 0 30px;
+    width: 95%;
+    height: 95%; 
+    position: relative;
+  }
+  .Join2 .textJoin2 .j2{
+    position: absolute;
+    top: 12vh;
+    left: 40vh;
+    
+  }
+  .Join2 .textJoin2 .j2 h3{
+    font-size: 30px;
+    line-height: 1.4em;
+    font-family: "Playfair Display",serif;
+    font-weight: 400;
+}
+.Join2 .textJoin2 .j2 .form2{
+    padding: 0;
+  }
+  .Join2 .textJoin2 .j2 .email{
+      color: #959595;
+      font-size: 12px;
+      width: 80vh;
+      height: 10vh;
+      border-radius: 0;
+      border: 1px solid #e8e8e8;;
+  }
+  .Join2 .textJoin2 .j2 .form2 .submit{
+      padding: 13px 42px;
+      color: #fff;
+      background-color: #000;
+      border: 1px solid transparent;
+      cursor: pointer;
+      height: 60px;
+  }
+  
